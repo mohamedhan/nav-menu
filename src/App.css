@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.nav{
+  display: flex;
+
+}
+.nav-menu{
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  justify-content: space-between;
+}
+.drop{
+  display: none;
+  list-style-type: none;
+
+}
+
+.elem:hover .drop{
+  display:block;
+  padding: 20px;
+}
+/* .elem{
+  display: flex;
+  justify-content: space-between;
+} */
+
